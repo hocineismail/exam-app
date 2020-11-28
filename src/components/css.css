@@ -1,0 +1,49 @@
+.item-reponse {
+    border: 2px gray solid;
+    min-height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.item-reponse:hover {
+   background-color: rgb(183, 242, 253);
+   border: 2px rgb(123, 255, 244) solid;
+}
+
+.item-reponse-disabled {
+    border: 2px gray solid;
+    min-height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin: 10px 0px;
+   
+}
+
+ 
+
+
+
+.selected {
+    background-color: rgb(183, 242, 253);
+    border: 2px rgb(123, 255, 244) solid;
+ }
+
+ .pointer {
+     cursor: pointer;
+ }
+
+ .disabled {
+    cursor: not-allowed;
+ }
+.correct {
+    background-color: rgb(96, 255, 90);
+    border: 2px rgb(96, 255, 90) solid;  
+}
+
+.not-correct {
+    background-color: rgb(251, 158, 158);
+    border: 2px rgb(253, 84, 84) solid;  
+}
